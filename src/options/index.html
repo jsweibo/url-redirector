@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="./css/index.css" rel="stylesheet" />
+    <script defer src="/browser-polyfill.min.js"></script>
+    <script defer src="./js/rem.js"></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="hint-field">
+        <div class="mask"></div>
+        <div class="hint"></div>
+      </div>
+      <form id="config">
+        <div>
+          <a
+            id="about"
+            target="_blank"
+            href="https://github.com/jsweibo/url-redirector#readme"
+            ><h1></h1
+          ></a>
+        </div>
+        <div class="form-field form-field_horizontal">
+          <div id="status-title" class="title"></div>
+          <div class="value-field">
+            <input type="checkbox" name="status" id="status" checked />
+          </div>
+        </div>
+        <div class="form-field">
+          <div id="rule-title" class="title"></div>
+          <div class="value-field">
+            <textarea name="rule" id="rule" rows="18" placeholder=""></textarea>
+          </div>
+        </div>
+        <div class="btns-field">
+          <button
+            class="btn_block btn_submit"
+            type="submit"
+            id="submit"
+          ></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

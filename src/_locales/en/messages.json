@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "URL Redirector"
+  },
+  "extensionDescription": {
+    "message": "It can redirect URL based on user settings"
+  },
+  "optionsPageTitle": {
+    "message": "Options"
+  },
+  "statusTitle": {
+    "message": "Status"
+  },
+  "ruleTitle": {
+    "message": "Rule"
+  },
+  "rulePlaceholder": {
+    "message": "Please input redirect rule"
+  },
+  "submitForm": {
+    "message": "Save"
+  },
+  "errorHint": {
+    "message": "Error occur"
+  },
+  "saveSuccessfullyHint": {
+    "message": "Save successfully"
+  }
+}

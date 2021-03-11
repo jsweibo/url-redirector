@@ -1,0 +1,38 @@
+{
+  "name": "url-redirector",
+  "version": "1.0.0",
+  "description": "It can redirect URL based on user settings",
+  "private": true,
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "gulp dev",
+    "build": "gulp",
+    "lint": "eslint src",
+    "prettier": "prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/url-redirector.git"
+  },
+  "keywords": [
+    "url",
+    "redirector"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/url-redirector/issues"
+  },
+  "homepage": "https://github.com/jsweibo/url-redirector#readme",
+  "dependencies": {
+    "webextension-polyfill": "^0.7.0"
+  },
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "gulp": "^4.0.2",
+    "prettier": "^2.2.1"
+  }
+}
